@@ -1,0 +1,20 @@
+{
+  "openapi": "3.0.0",
+  "info": { "title": "API Gestión de Cursos", "version": "1.0.0" },
+  "paths": {
+    "/courses": {
+      "get": {
+        "summary": "Obtener cursos",
+        "parameters": [
+          { "name": "categoria", "in": "query", "schema": { "type": "integer" } },
+          { "name": "fecha_inicio", "in": "query", "schema": { "type": "string" } },
+          { "name": "fecha_fin", "in": "query", "schema": { "type": "string" } }
+        ]
+      },
+      "post": { "summary": "Crear curso" }
+    },
+    "/courses/categories": {
+      "post": { "summary": "Crear categoría" }
+    }
+  }
+}

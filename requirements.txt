@@ -1,7 +1,3 @@
-fastapi
-uvicorn
-sqlalchemy
-pymysql
-python-jose[cryptography]
-python-multipart
-requests
+flask
+flask-cors
+mysql-connector-python
