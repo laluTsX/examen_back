@@ -1,2 +1,18 @@
-node_modules
+# Entorno virtual
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# Variables de entorno (¡Súper importante!)
 .env
+
+# Archivos de sistema y editores
+.vscode/
+.idea/
+.DS_Store
+*.log
+
+# Docker
+.docker/
